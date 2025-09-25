@@ -1,30 +1,41 @@
-Delopgave 1
-sådan køres koden
-for at indlæse filen "Navneliste.txt" skal variablen filepath i coden ændres således at det passer til din filsti når du henter filen.
-husk at lukke hvor graf for at fortsætte koden
-hent krævede pakker
+# Python Intro
+Dette indeholder min besvarelse af anden uges opgaver. Hver delopgave har sin egen mappe således at delopgave 1 ligger i mappen Delopgave_1, delopgave 2 ligger i mappen Delopgave_2, delopgave 3 ligger i mappen Delopgave_3 og delopgave 4 ligger i mappen Delopgave_4.
 
-problemer : indlæsning af datasæt (lokal lappeløsning), installation af pakker - måske fordi mit pip ikke virkede (geninstalleret python men måske denne gang tilføjede python til path), problemer med wordcloud (løst ved at bruge frekvens i dictionary frem for streng) samt seaborn (ukendt bib)
+## Kom godt igang
 
-packages : matplotlib, wordcloud, pandas, seaborn
+### Afhængigheder
+Før vi begynder er det en god ide at downloade bibliotekerne Matplotlib, Seaborn, wordcloud og pandas. Dette gøres ved pip.
+```bash
+pip install mathplotlib
+pip install seaborn
+pip install wordcloud
+pip install pandas
+```
 
-Delopgave 2
-sådan køres  koden : 
+### Installation
+Download hele repository'et - eller i hvert fald mappen 'Data' og så den delopgave du gerne vil have.
 
+## Sådan køres koden
+Det er nok at vælge den fil man gerne vil køre og kalde den i python. Bemærk, i delopgave 1 at graferne skal lukkes før koden kan fortsætte.
+
+## Kommentarer til processen og problemer
+### Delopgave 1
+problemer : indlæsning af datasæt (lokal lappeløsning - men ved at løse de efterfølgende opgaver fik vi svar på det), installation af pakker - måske fordi mit pip ikke virkede (geninstalleret python men måske denne gang tilføjede python til path), problemer med wordcloud (løst ved at bruge frekvens i dictionary frem for streng) samt seaborn (ukendt bib)
+
+
+### Delopgave 2
 successer : vi har nu løst problemet fra 1 med den variable filepath - hurra!
 robust(?) i og med bruger with open()
 
 problemer : opsætning af tilladelse til at skabe nye filer løbende
 testning - jeg ved ikke helt om det er rigtigt sat op
 
-packages : os
 
-
-Delopgave 3
-sådan køres  koden : 
-
-successer : 
-
+### Delopgave 3
 problemer : struktur, hold styr på alle tilfælde - en hel del googling var påkrævet
 
-packages : os, stat, csv
+
+## Forfatter
+Laura Brædder
+laura.braedder@specialisterne.dk
+
