@@ -18,3 +18,13 @@ problemer : opsætning af tilladelse til at skabe nye filer løbende
 testning - jeg ved ikke helt om det er rigtigt sat op
 
 packages : os
+
+
+Delopgave 3
+sådan køres  koden : 
+
+successer : 
+
+problemer : 
+
+packages : os
