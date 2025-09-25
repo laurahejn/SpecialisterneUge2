@@ -9,10 +9,12 @@ problemer : indlæsning af datasæt (lokal lappeløsning), installation af pakke
 packages : matplotlib, wordcloud, pandas, seaborn
 
 Delopgave 2
-sådan køres  koden
+sådan køres  koden : 
 
 successer : vi har nu løst problemet fra 1 med den variable filepath - hurra!
+robust(?) i og med bruger with open()
 
-problemer : 
+problemer : opsætning af tilladelse til at skabe nye filer løbende
+testning - jeg ved ikke helt om det er rigtigt sat op
 
 packages : os
