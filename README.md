@@ -25,6 +25,6 @@ sådan køres  koden :
 
 successer : 
 
-problemer : 
+problemer : struktur, hold styr på alle tilfælde - en hel del googling var påkrævet
 
-packages : os
+packages : os, stat, csv

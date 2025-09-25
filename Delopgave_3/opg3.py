@@ -1,5 +1,6 @@
 import os
 import stat
+import csv
 
 def main():
     '''
@@ -37,15 +38,38 @@ def main():
     #read and move data - notice that the 'with open()' corresponds to a try-finally expression
     res_file = os.path.join(res_folder_path, r'copied_data.csv')
     try: 
-        with open(data_path, 'r') as datafile:
-            with open(res_file, 'a') as res: #if file exists append to it else create and write
-                for line in datafile:
-                    res.write(line)
+        with open(data_path, 'r', encoding='utf-8', newline='') as datafile: #we need encoding='utf-8' and newline='' to avoid translation issues when using csv
+            with open(res_file, 'w', encoding='utf-8', newline='') as res: #if file exists overwrite it with our dataset - else create new file
+                #create csv objects
+                datafile_reader = csv.reader(datafile)
+                res_writer = csv.writer(res)
+
+                #copy the data
+                for row_number, row in enumerate(datafile_reader, start=1):
+                    try:
+                        if not row: #skip empty rows
+                            continue
+                        row = [cell.strip() for cell in row] #clean data
+                        res_writer.writerow(row)
+                    except ValueError as ve:
+                        print(f"Value error in row {row_number}: {ve}")
+                    except Exception as e:
+                        print(f"Unexpected error in row {row_number}: {e}")
         print(f'We have successfully copied the dataset to {res_file}.')
+        
+    except FileNotFoundError:
+        print(f"File not found: {data_path}")
+    except PermissionError:
+        print(f"Permission denied for file: {data_path} or {res_file}")
+    except UnicodeDecodeError:
+        print("Could not decode the file – try a different encoding")
+    except csv.Error as ce:
+        print(f"CSV formatting error: {ce}")
     except OSError as e:
         print(f"OS error occurred during file operations (most likely we have the wrong permissions in the directory): {e}")
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"Unexpected error: {e}")    
+
 
 if __name__ == '__main__':
     main()
