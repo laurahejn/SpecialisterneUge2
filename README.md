@@ -1,10 +1,10 @@
 # Python Intro
-Dette repository indeholder min besvarelse af anden uges opgaver. Hver delopgave har sin egen mappe således, at delopgave 1 ligger i mappen Delopgave_1, delopgave 2 ligger i mappen Delopgave_2, delopgave 3 ligger i mappen Delopgave_3, og delopgave 4 ligger i mappen Delopgave_4.
+Dette repository indeholder min besvarelse af anden uges opgaver. Hver delopgave har sin egen mappe således, at delopgave 1 ligger i mappen **Delopgave_1**, delopgave 2 ligger i mappen **Delopgave_2**, delopgave 3 ligger i mappen **Delopgave_3**, og delopgave 4 ligger i mappen **Delopgave_4**.
 
 ## Kom godt igang
 
 ### Afhængigheder
-Før vi begynder er det en god ide at installere bibliotekerne matplotlib, seaborn, wordcloud og pandas. Dette gøres ved pip.
+Før vi begynder er det en god ide at installere bibliotekerne *matplotlib*, *seaborn*, *wordcloud* og *pandas*. Dette gøres ved pip.
 ```bash
 pip install mathplotlib
 pip install seaborn
