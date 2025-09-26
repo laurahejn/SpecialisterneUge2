@@ -1,10 +1,10 @@
 # Python Intro
-Dette indeholder min besvarelse af anden uges opgaver. Hver delopgave har sin egen mappe således at delopgave 1 ligger i mappen Delopgave_1, delopgave 2 ligger i mappen Delopgave_2, delopgave 3 ligger i mappen Delopgave_3 og delopgave 4 ligger i mappen Delopgave_4.
+Dette repository indeholder min besvarelse af anden uges opgaver. Hver delopgave har sin egen mappe således, at delopgave 1 ligger i mappen Delopgave_1, delopgave 2 ligger i mappen Delopgave_2, delopgave 3 ligger i mappen Delopgave_3, og delopgave 4 ligger i mappen Delopgave_4.
 
 ## Kom godt igang
 
 ### Afhængigheder
-Før vi begynder er det en god ide at downloade bibliotekerne Matplotlib, Seaborn, wordcloud og pandas. Dette gøres ved pip.
+Før vi begynder er det en god ide at installere bibliotekerne matplotlib, seaborn, wordcloud og pandas. Dette gøres ved pip.
 ```bash
 pip install mathplotlib
 pip install seaborn
@@ -13,7 +13,7 @@ pip install pandas
 ```
 
 ### Installation
-Download hele repository'et - eller i hvert fald mappen 'Data' og så den delopgave du gerne vil have.
+Download hele repository'et - eller i hvert fald mappen 'Data' og den delopgave du er interesseret i. Måske kan det gøres uden at downloade, men i så fald ved jeg ikke hvordan.
 
 ## Sådan køres koden
 Det er nok at vælge den fil man gerne vil køre og kalde den i python. Bemærk, i delopgave 1 at graferne skal lukkes før koden kan fortsætte.

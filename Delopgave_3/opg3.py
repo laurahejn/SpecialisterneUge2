@@ -56,7 +56,7 @@ def main():
                     except Exception as e:
                         print(f"Unexpected error in row {row_number}: {e}")
         print(f'We have successfully copied the dataset to {res_file}.')
-        
+
     except FileNotFoundError:
         print(f"File not found: {data_path}")
     except PermissionError:
