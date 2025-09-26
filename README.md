@@ -13,7 +13,7 @@ pip install pandas
 ```
 
 ### Installation
-Download hele repository'et - eller i hvert fald mappen 'Data' og den delopgave, du er interesseret i. Måske programmet køres uden at downloade filerne, men i så fald ved jeg ikke hvordan.
+Download hele repository'et - eller i hvert fald mappen **Data** og den delopgave, du er interesseret i. Måske programmet køres uden at downloade filerne, men i så fald ved jeg ikke hvordan.
 
 ## Sådan køres koden
 Det er nok at vælge den fil, man gerne vil køre, og kalde den i python. Bemærk, at graferne skal lukkes før koden kan fortsætte.
